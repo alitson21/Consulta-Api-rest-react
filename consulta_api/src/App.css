@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+  background-color: rgb(234, 241, 201);
+}
+
+.header {
+  background-color: black;
+  color: white;
+  height: 2cm;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.header .menu {
+  display: grid;
+  grid-template-columns: 9cm 3cm 4cm;
+  justify-content: end;
+  align-content: center;
+  height: 100%;
+  gap: 3px;
+}
+
+.header .menu b {
+  text-decoration: underline;
+  height: 1.4cm;
+  background-color: rgb(34, 36, 37);
+  padding-top: 0.6cm;
+}
+
+.header .menu b:hover {
+  transition: 2s all;
+  background-color: gold;
+  color: black;
+}
+
+.header .menu a {
+  text-decoration: none;
+  height: 1.4cm;
+  background-color: rgb(34, 36, 37);
+  padding-top: 0.6cm;
+  color: white;
+  font-weight: bold;
+}
+
+.header .menu a:hover {
+  transition: 2s all;
+  background-color: gold;
+  color: black;
+}
+
+#comienso {
+  margin-top: 2cm;
+  padding-top: 1cm;
+}
+
+.producto {
+  border: solid black 1px;
+  width: 50%;
+  border-radius: 8px;
+  margin: 10px auto;
+  background-color: rgb(236, 237, 238);
+  padding: 0.4cm 1cm;
+}
+
+.producto button {
+  background-color: gold;
+  border: 0.2px solid black;
+  color: black;
+  font-weight: bold;
+  height: 1cm;
+  border-radius: 8px;
+  width: 4cm;
+  box-shadow: 2px 1px 1px 1px gray;
+}
+
+.producto button:hover {
+  background-color: black;
+  color: white;
+  transition: 2s all;
+}
+
+
+.footer {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  height: 3cm;
+  padding: 1cm 0;
+  margin-top: 1cm;
+}
+
+.footer p:nth-child(2) {
+  color: gold;
+}
